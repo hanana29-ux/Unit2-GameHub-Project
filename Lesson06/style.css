@@ -40,12 +40,27 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
+    transition: transform 0.3s ease;
+}
+.logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .main-nav a {
     color: #ffffff;
     text-decoration: none;
     margin-left: 30px;
+    transition: color 0.2s ease;
+}
+.main-nav a:hover {
+    color: #ac9ae2;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+.main-nav a:focus {
+    outline: 2px solid #3498db;
+    outline-offset: 4px;
 }
 
 /* ===================================
@@ -61,6 +76,11 @@ body {
 .hero-title {
     font-size: 48px;
     margin-bottom: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.hero-title:hover {
+    color: #f39c12;
+    transform: scale(1.05);
 }
 
 .hero-subtitle {
@@ -70,24 +90,4 @@ body {
 
 /* ===================================
    BUTTONS
-   =================================== */
-.btn {
-    padding: 20px 40px;
-    font-size: 22px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.btn-primary {
-    background-color: #514F59;
-    color: #ffffff;
-}
-
-
-/* ===================================
-   NOTES FOR FUTURE LESSONS:
-   - Each new lesson will add sections BELOW
-   - Keep this file organized with comments
-   - We'll enhance existing sections as we learn more
-   =================================== */
+   ===============================

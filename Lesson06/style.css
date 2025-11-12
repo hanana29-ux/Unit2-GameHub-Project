@@ -90,4 +90,32 @@ body {
 
 /* ===================================
    BUTTONS
-   ===============================
+   =================================== */
+.btn {
+    padding: 20px 40px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #514F59;
+    color: #ffffff;
+}
+.btn:hover {
+    transform: translateY(-2px) scale(1.05);
+    opacity: 0.9;
+}
+.btn:active {
+    transform: translateY(0);
+}
+
+
+/* ===================================
+   NOTES FOR FUTURE LESSONS:
+   - Each new lesson will add sections BELOW
+   - Keep this file organized with comments
+   - We'll enhance existing sections as we learn more
+   =================================== */

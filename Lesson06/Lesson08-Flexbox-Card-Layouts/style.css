@@ -128,4 +128,49 @@ p{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: tr
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #514F59;
+    color: #ffffff;
+}
+.btn:hover {
+    transform: translateY(-2px) scale(1.05);
+    opacity: 0.9;
+}
+.btn:active {
+    transform: translateY(0);
+}
+
+
+
+/* Cards */
+.features-grid{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feature-card {
+    flex: 1;
+    padding: 40px 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.feature-icon{
+    
+}
+/* ===================================
+   NOTES FOR FUTURE LESSONS:
+   - Each new lesson will add sections BELOW
+   - Keep this file organized with comments
+   - We'll enhance existing sections as we learn more
+   =================================== */
